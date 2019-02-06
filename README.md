@@ -1,4 +1,4 @@
-## Bank Database Design
+**Bank Database Design**
 
 - When an employee opens an account, performs a transaction on or reactivates an account there must be a record of which employee performed the action.
 - Every person who opens a savings account does not get the same rate.
@@ -8,7 +8,7 @@
 - The information for checking and saving accounts is very similar to each other as are the transactions that update those accounts.
 - More than one customer is allowed on each account, and any transaction record should reflect which customer made the transaction.
 
-## Column List
+**Column List**
 
 | DateOpened | CustomerFirstName | ErrorLogID |
 | --- | --- | --- |
@@ -31,7 +31,10 @@
 | NewBalance |   |   |
 
 
-## Designed Entities
+
+
+
+**Designed Entities**
 
 Categorized columns, \* are Primary Keys
 
